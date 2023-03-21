@@ -22,4 +22,4 @@ vienen dentro de los archivos .gradle.
 
 ## Demo
 
-![App User](https://user-images.githubusercontent.com/84041579/210410935-da0475e0-d86d-4b0a-a7b0-e399b7d641ea.gif)
+![App User](https://github.com/Johan2511/Users/blob/main/app/src/main/java/com/example/users/gifdemo/User%20app.gif)
