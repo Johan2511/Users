@@ -63,12 +63,16 @@ class MainActivity : AppCompatActivity()  {
             }
 
             override fun onQueryTextChange(newText: String?): Boolean {
-                if (newText.isNullOrEmpty()) {
-                    userAdapter.filterList(data)
+                val filteredData = if (newText.isNullOrEmpty()) {
+                    data
                 } else {
-                    val filteredData = data.filter { it.name.contains(newText, true) }
-                    userAdapter.filterList(filteredData)
+                    data.filter { user ->
+                        listOf(user.name, user.username, user.email, user.phone, user.website).any {
+                            it.contains(newText, true)
+                        }
+                    }
                 }
+                userAdapter.filterList(filteredData)
                 return true
             }
         })
