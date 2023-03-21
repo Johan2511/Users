@@ -18,3 +18,8 @@ vienen dentro de los archivos .gradle.
 - [Retrofit](https://developer.android.com/kotlin/coroutines?hl=es-419) Se uso para tener acceso a la API REST.
 - [ViewBinding](https://developer.android.com/topic/libraries/view-binding) La vinculación de vista es una función que te permite escribir más fácilmente código que interactúa con las vistas. Una vez que la vinculación de vista está habilitada en un módulo, genera una clase de vinculación para cada archivo de diseño XML presente en ese módulo. Una instancia de una clase de vinculación contiene referencias directas a todas las vistas que tienen un ID en el diseño correspondiente.
 - [Parcelize](https://developer.android.com/kotlin/parcelize) El complemento kotlin-parcelize proporciona un generador de implementaciones Parcelable.
+
+
+## Demo
+
+![App User](https://user-images.githubusercontent.com/84041579/210410935-da0475e0-d86d-4b0a-a7b0-e399b7d641ea.gif)
